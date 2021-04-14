@@ -1,9 +1,41 @@
 .jumbotron {
+  text-align: center;
+  font-weight: bold;
+  background-color: #F2F2F2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0 0 0 ;
+  margin:0;
+  height: 100vh;
+}
+
+@media (min-width:767px)
+{
+
+.jumbotron {
     text-align: center;
     font-weight: bold;
+    background-image: url("https://images.unsplash.com/photo-1539592252792-246b4a59ea73?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
     background-color: #F2F2F2;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 20px 0 0 0;
+    margin:0;
     height: 100vh;
+  }
+
+}
+
+
+.row{
+  padding: 30px;
+}
+
+  .card-deck{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
